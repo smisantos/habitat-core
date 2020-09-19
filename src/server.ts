@@ -1,5 +1,7 @@
 import express from 'express'
-import router from './routes'
+import { router } from './api/routes'
+
+import './loaders/connect'
 
 const app = express()
 
